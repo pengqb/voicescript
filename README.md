@@ -15,8 +15,6 @@ voice_script项目
 
 建议使用 Python 3.12。进入源码目录后执行：
 
-code.sh
-
 ```
 cd "/path/to/auto"
 chmod +x setup.sh run.sh
@@ -40,15 +38,11 @@ PIP_INDEX_URL="https://pypi.tuna.tsinghua.edu.cn/simple" ./setup.sh
 
 安装 Python 3 时保留 **Python Launcher（py）**。然后在命令提示符中执行：
 
-code.bat
-
 ```
 cd /d "C:\path\to\auto"setup.batrun.bat "C:\path\to\audio.mp3"
 ```
 
 PowerShell 中则使用：
-
-code.powershell
 
 ```
 cd "C:\path\to\auto".\setup.bat.\run.bat "C:\path\to\audio.mp3"
@@ -61,7 +55,6 @@ cd "C:\path\to\auto".\setup.bat.\run.bat "C:\path\to\audio.mp3"
 ## 使用
 
 默认输出到 MP3 同目录，文件名为 `原文件名_transcript.txt`。指定输出或时间轴的方式不变：
-code.sh
 
 ```
 ./run.sh "audio.mp3" -o "result.txt" --timestamps
@@ -100,8 +93,6 @@ cd "/path/to/auto"
 
 
 Windows 对应为：
-
-code.bat
 
 ```
 run.bat "audio.mp3" -o "result.txt" --timestamps
